@@ -1,3 +1,34 @@
+div.videothumbnail {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.videothumbnail:hover {
+    border: 1px solid #777;
+}
+
+div.videothumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.vungChon:hover {
+    cursor: pointer;
+}
+
+
+/* css cua modal  */
+
 body {
     margin: 2rem;
 }
@@ -17,8 +48,8 @@ body {
     right: -30px;
     top: 0;
     z-index: 999;
-    font-size: 2rem;
+    font-size: 5rem;
     font-weight: normal;
-    color: #fff;
+    color: white;
     opacity: 1;
 }
